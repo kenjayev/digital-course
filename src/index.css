@@ -1,0 +1,12 @@
+@import "tailwindcss";
+* {
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  /* justify-content: space-; */
+}
+@theme {
+  --font-montserrat: "Times New Roman", Times, serif;
+  --color-customWhite: #eee;
+  --color-gold: #e0b507;
+  --color-dark-gradient: linear-gradient(90deg, #242633, #2c2d2d);
+}
