@@ -1,5 +1,6 @@
 import {
   About,
+  AboutAuthor,
   ContactForm,
   Footer,
   FrequentlyAQ,
@@ -12,6 +13,7 @@ function App() {
     <div className="bg-black">
       <Header />
       <About />
+      <AboutAuthor />
       <Plane />
       <ContactForm />
       <FrequentlyAQ />

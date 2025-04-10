@@ -63,7 +63,7 @@ const Header = () => {
           <div className="relative max-w-[550px] m-auto md:max-w-none flex-1">
             <img
               className="w-full block opacity-50"
-              src="https://izzatbek-digital-kurs.uz/assets/Latipov1-DkjEL4KY.jpg"
+              src="/public/img/izzat_2.jpg"
               alt=""
             />
             <div className="absolute bottom-1 w-full text-center">
