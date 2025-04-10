@@ -17,7 +17,7 @@ const Plane = () => {
             <p className="mb-2 md:text-lg lg:text-xl lg:leading-none md:mb-3 lg:mb-5">
               <img
                 className="inline-block mb-1 mr-[10px] lg:w-[18px] lg:h-[18px]"
-                src="/public/img/icon/tick.svg"
+                src="/img/icon/tick.svg"
                 alt="icon| tick✅"
               />
               Target online darsliklar
@@ -25,7 +25,7 @@ const Plane = () => {
             <p className="mb-2 md:text-lg lg:text-xl lg:leading-none md:mb-3 lg:mb-5">
               <img
                 className="inline-block mb-1 mr-[10px] lg:w-[18px] lg:h-[18px]"
-                src="/public/img/icon/tick.svg"
+                src="/img/icon/tick.svg"
                 alt="icon| tick✅"
               />
               Kurator yordami
@@ -33,7 +33,7 @@ const Plane = () => {
             <p className="mb-2 md:text-lg lg:text-xl lg:leading-none md:mb-3 lg:mb-5">
               <img
                 className="inline-block mb-1 mr-[10px] lg:w-[18px] lg:h-[18px]"
-                src="/public/img/icon/tick.svg"
+                src="/img/icon/tick.svg"
                 alt="icon| tick✅"
               />
               Yopiq guruhda savol-javoblar
@@ -41,7 +41,7 @@ const Plane = () => {
             <p className="mb-2 md:text-lg lg:text-xl lg:leading-none md:mb-3 lg:mb-5">
               <img
                 className="inline-block mb-1 mr-[10px] lg:w-[18px] lg:h-[18px]"
-                src="/public/img/icon/tick.svg"
+                src="/img/icon/tick.svg"
                 alt="icon| tick✅"
               />
               Haftada 1 marta zoom uchrashuv
@@ -49,7 +49,7 @@ const Plane = () => {
             <p className="mb-2 md:text-lg lg:text-xl lg:leading-none md:mb-3 lg:mb-5">
               <img
                 className="inline-block mb-1 mr-[10px] lg:w-[18px] lg:h-[18px]"
-                src="/public/img/icon/tick.svg"
+                src="/img/icon/tick.svg"
                 alt="icon| tick✅"
               />
               Eng yaxshi <span className="font-semibold">7 kishiga</span> loyiha
@@ -58,7 +58,7 @@ const Plane = () => {
             <p className="mb-2 md:text-lg lg:text-xl lg:leading-none md:mb-3 lg:mb-5">
               <img
                 className="inline-block mb-1 mr-[10px] lg:w-[18px] lg:h-[18px]"
-                src="/public/img/icon/tick.svg"
+                src="/img/icon/tick.svg"
                 alt="icon| tick✅"
               />
               Eng yaxshi <span className="font-semibold">1 kishi</span> jamoaga
@@ -67,7 +67,7 @@ const Plane = () => {
             <p className="mb-2 md:text-lg lg:text-xl lg:leading-none md:mb-3 lg:mb-5">
               <img
                 className="inline-block mb-1 mr-[10px] lg:w-[18px] lg:h-[18px]"
-                src="/public/img/icon/tick.svg"
+                src="/img/icon/tick.svg"
                 alt="icon| tick✅"
               />
               Kurs oxirida individual masterklass
@@ -75,7 +75,7 @@ const Plane = () => {
             <p className="mb-2 md:text-lg lg:text-xl lg:leading-none md:mb-3 lg:mb-5">
               <img
                 className="inline-block mr-2 mb-1 lg:w-[18px] lg:h-[18px]  "
-                src="/public/img/icon/tick.svg"
+                src="/img/icon/tick.svg"
                 alt="icon| tick✅"
               />{" "}
               <span className="font-semibold">BONUS</span> SMM instrumentlari va
@@ -107,7 +107,7 @@ const Plane = () => {
             <p className="mb-2 md:text-lg lg:text-xl lg:leading-none md:mb-3 lg:mb-5">
               <img
                 className="inline-block mb-1 mr-[10px] lg:w-[18px] lg:h-[18px]"
-                src="/public/img/icon/tick.svg"
+                src="/img/icon/tick.svg"
                 alt="icon| tick✅"
               />
               Target online darsliklar
@@ -115,7 +115,7 @@ const Plane = () => {
             <p className="mb-2 md:text-lg lg:text-xl lg:leading-none md:mb-3 lg:mb-5">
               <img
                 className="inline-block mb-1 mr-[10px] lg:w-[18px] lg:h-[18px]"
-                src="/public/img/icon/tick.svg"
+                src="/img/icon/tick.svg"
                 alt="icon| tick✅"
               />
               Kurator yordami
@@ -123,7 +123,7 @@ const Plane = () => {
             <p className="mb-2 md:text-lg lg:text-xl lg:leading-none md:mb-3 lg:mb-5">
               <img
                 className="inline-block mb-1 mr-[10px] lg:w-[18px] lg:h-[18px]"
-                src="/public/img/icon/tick.svg"
+                src="/img/icon/tick.svg"
                 alt="icon| tick✅"
               />
               Yopiq guruhda savol-javoblar
@@ -131,7 +131,7 @@ const Plane = () => {
             <p className="mb-2 md:text-lg lg:text-xl lg:leading-none md:mb-3 lg:mb-5">
               <img
                 className="inline-block mb-1 mr-[10px] lg:w-[18px] lg:h-[18px]"
-                src="/public/img/icon/tick.svg"
+                src="/img/icon/tick.svg"
                 alt="icon| tick✅"
               />
               <span className="font-semibold">Izzatbek Targetolog</span> bilan
@@ -140,7 +140,7 @@ const Plane = () => {
             <p className="mb-2 md:text-lg lg:text-xl lg:leading-none md:mb-3 lg:mb-5">
               <img
                 className="inline-block mb-1 mr-[10px] lg:w-[18px] lg:h-[18px]"
-                src="/public/img/icon/tick.svg"
+                src="/img/icon/tick.svg"
                 alt="icon| tick✅"
               />
               Muvaffaqqiyatli yakunlagan barchaga loyiha beriladi
@@ -148,7 +148,7 @@ const Plane = () => {
             <p className="mb-2 md:text-lg lg:text-xl lg:leading-none md:mb-3 lg:mb-5">
               <img
                 className="inline-block mb-1 mr-[10px] lg:w-[18px] lg:h-[18px]"
-                src="/public/img/icon/tick.svg"
+                src="/img/icon/tick.svg"
                 alt="icon| tick✅"
               />
               Eng yaxshi <span className="font-semibold">3 kishi</span> jamoaga
@@ -157,7 +157,7 @@ const Plane = () => {
             <p className="mb-2 md:text-lg lg:text-xl lg:leading-none md:mb-3 lg:mb-5">
               <img
                 className="inline-block mb-1 mr-[10px] lg:w-[18px] lg:h-[18px]"
-                src="/public/img/icon/tick.svg"
+                src="/img/icon/tick.svg"
                 alt="icon| tick✅"
               />
               Natijaga chiqishga <span className="font-semibold">100%</span>{" "}
@@ -166,7 +166,7 @@ const Plane = () => {
             <p className="mb-2 md:text-lg lg:text-xl lg:leading-none md:mb-3 lg:mb-5">
               <img
                 className="inline-block mr-2 mb-1 lg:w-[18px] lg:h-[18px]"
-                src="/public/img/icon/tick.svg"
+                src="/img/icon/tick.svg"
                 alt="icon| tick✅"
               />{" "}
               <span className="font-semibold">BONUS</span> SMM instrumentlari va
@@ -175,7 +175,7 @@ const Plane = () => {
             <p className="mb-2 md:text-lg lg:text-xl lg:leading-none md:mb-3 lg:mb-5">
               <img
                 className="inline-block mr-2 mb-1 lg:w-[18px] lg:h-[18px]"
-                src="/public/img/icon/tick.svg"
+                src="/img/icon/tick.svg"
                 alt="icon| tick✅"
               />{" "}
               <span className="font-semibold">Izzatbek Targetologdan</span>{" "}

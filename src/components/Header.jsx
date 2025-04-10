@@ -12,7 +12,7 @@ const Header = () => {
               <div className="p-5 md:px-[13px] ml-4 lg:ml-0 w-full max-w-[200px] md:max-w-[210px] rounded-md text-customWhite relative md:from-[#242633] md:to-[#2c2d2d] bg-gradient-to-r from-transparent to-transparent">
                 <img
                   className="absolute top-[30%] left-[-15px] border border-[#aaa] rounded-[10px] p-[7px] md:p-8px w-[32px] md:w-[36px] h-[32px] md:h-[36px] bg-gradient-to-r from-[#242633] to-[#2c2d2d]"
-                  src="/public/img/icon/data.svg"
+                  src="/img/icon/data.svg"
                   alt=""
                 />
                 <p className="text-[12px] sm:text-[16px] md:text-[18px] lg:text-[20px] ml-2 md:ml-4">
@@ -23,7 +23,7 @@ const Header = () => {
               <div className="p-5 md:px-[13px] ml-3 w-full max-w-[200px] md:max-w-[230px] rounded-md text-customWhite relative md:from-[#242633] md:to-[#2c2d2d] bg-gradient-to-r from-transparent to-transparent">
                 <img
                   className="absolute top-[30%] left-[-15px] border border-[#aaa] rounded-[10px] p-[7px] md:p-8px w-[32px] md:w-[36px] h-[32px] md:h-[36px] bg-gradient-to-r from-[#242633] to-[#2c2d2d]"
-                  src="/public/img/icon/data.svg"
+                  src="/img/icon/data.svg"
                   alt=""
                 />
                 <p className="text-[12px] sm:text-[16px] md:text-[18px] lg:text-[20px] ml-2 md:ml-4">
@@ -63,7 +63,7 @@ const Header = () => {
           <div className="relative max-w-[550px] m-auto md:max-w-none flex-1">
             <img
               className="w-full block opacity-50"
-              src="/public/img/izzat_2.jpg"
+              src="/img/izzat_2.jpg"
               alt=""
             />
             <div className="absolute bottom-1 w-full text-center">

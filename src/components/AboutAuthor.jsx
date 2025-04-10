@@ -25,7 +25,7 @@ const AboutAuthor = () => {
             <div className="flex items-center gap-2 md:gap-3">
               <img
                 className="w-[40px] sm:w-[50px] lg:w-[60px] h-[40px] sm:h-[50px] lg:h-[60px] overflow-hidden rounded-full"
-                src="/public/img/project_logo__1.jpg"
+                src="/img/project_logo__1.jpg"
                 alt=""
               />
               <span className="text-sm sm:text-base lg:text-xl font-semi00000bold">
@@ -35,7 +35,7 @@ const AboutAuthor = () => {
             <div className="flex items-center gap-2 md:gap-3">
               <img
                 className="w-[40px] sm:w-[50px] lg:w-[60px] h-[40px] sm:h-[50px] lg:h-[60px] overflow-hidden rounded-full"
-                src="/public/img/project_logo__1.jpg"
+                src="/img/project_logo__1.jpg"
                 alt=""
               />
               <span className="text-sm sm:text-base lg:text-xl font-semi00000bold">
@@ -45,7 +45,7 @@ const AboutAuthor = () => {
             <div className="flex items-center gap-2 md:gap-3">
               <img
                 className="w-[40px] sm:w-[50px] lg:w-[60px] h-[40px] sm:h-[50px] lg:h-[60px] overflow-hidden rounded-full"
-                src="/public/img/project_logo__1.jpg"
+                src="/img/project_logo__1.jpg"
                 alt=""
               />
               <span className="text-sm sm:text-base lg:text-xl font-semi00000bold">
@@ -55,7 +55,7 @@ const AboutAuthor = () => {
             <div className="flex items-center gap-2 md:gap-3">
               <img
                 className="w-[40px] sm:w-[50px] lg:w-[60px] h-[40px] sm:h-[50px] lg:h-[60px] overflow-hidden rounded-full"
-                src="/public/img/project_logo__1.jpg"
+                src="/img/project_logo__1.jpg"
                 alt=""
               />
               <span className="text-sm sm:text-base lg:text-xl font-semi00000bold">
@@ -65,7 +65,7 @@ const AboutAuthor = () => {
             <div className="flex items-center gap-2 md:gap-3">
               <img
                 className="w-[40px] sm:w-[50px] lg:w-[60px] h-[40px] sm:h-[50px] lg:h-[60px] overflow-hidden rounded-full"
-                src="/public/img/project_logo__1.jpg"
+                src="/img/project_logo__1.jpg"
                 alt=""
               />
               <span className="text-sm sm:text-base lg:text-xl font-semi00000bold">
@@ -75,7 +75,7 @@ const AboutAuthor = () => {
             <div className="flex items-center gap-2 md:gap-3">
               <img
                 className="w-[40px] sm:w-[50px] lg:w-[60px] h-[40px] sm:h-[50px] lg:h-[60px] overflow-hidden rounded-full"
-                src="/public/img/project_logo__1.jpg"
+                src="/img/project_logo__1.jpg"
                 alt=""
               />
               <span className="text-sm sm:text-base lg:text-xl font-semi00000bold">
@@ -87,12 +87,12 @@ const AboutAuthor = () => {
           </div>
         </div>
         <div className="flex-1 relative max-w-[490px] lg:max-w-[550px] m-auto lg:m-0 rounded-[30px] overflow-hidden">
-          <img className="opacity-50" src="/public/img/izzat_2.jpg" alt="" />
+          <img className="opacity-50" src="/img/izzat_2.jpg" alt="" />
           <div className="w-[90%] absolute bottom-4 right-2">
             <p className="mb-2 font-semibold text-lg lg:text-xl lg:leading-none lg:mb-4">
               <img
                 className="inline-block mb-1 mr-[10px] w-[20px] h-[20px] lg:w-[25px] lg:h-[25px]"
-                src="/public/img/icon/tick.svg"
+                src="/img/icon/tick.svg"
                 alt="icon| tick✅"
               />
               3 yildan ortiq tajriba
@@ -100,7 +100,7 @@ const AboutAuthor = () => {
             <p className="mb-2 font-semibold text-lg lg:text-xl lg:leading-none lg:mb-4">
               <img
                 className="inline-block mb-1 mr-[10px] w-[20px] h-[20px] lg:w-[25px] lg:h-[25px]"
-                src="/public/img/icon/tick.svg"
+                src="/img/icon/tick.svg"
                 alt="icon| tick✅"
               />
               Applenasiya uzb ga 1 oyda 150,000$ savdo
@@ -108,7 +108,7 @@ const AboutAuthor = () => {
             <p className="mb-2 font-semibold text-lg lg:text-xl lg:leading-none lg:mb-4">
               <img
                 className="inline-block mb-1 mr-[10px] w-[20px] h-[20px] lg:w-[25px] lg:h-[25px]"
-                src="/public/img/icon/tick.svg"
+                src="/img/icon/tick.svg"
                 alt="icon| tick✅"
               />
               $300K reklamaga sarflangan byudjet
@@ -116,7 +116,7 @@ const AboutAuthor = () => {
             <p className="mb-2 font-semibold text-lg lg:text-xl lg:leading-none lg:mb-4">
               <img
                 className="inline-block mb-1 mr-[10px] w-[20px] h-[20px] lg:w-[25px] lg:h-[25px]"
-                src="/public/img/icon/tick.svg"
+                src="/img/icon/tick.svg"
                 alt="icon| tick✅"
               />
               50 dan ortiq proyektlar
