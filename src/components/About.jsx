@@ -32,7 +32,7 @@ const About = () => {
     },
   ];
   return (
-    <div className="mt-16 pb-15">
+    <div className="mt-18 pb-15">
       <h2 className="text-center text-white font-semibold uppercase mb-6 md:mb-8 lg:mb-10 text-2xl sm:text-3xl md:text-4xl">
         Kursda nimalarni o'rganasiz
       </h2>
@@ -45,7 +45,7 @@ const About = () => {
             <h5 className="uppercase font-semibold text-sm sm:text-[15] md:text-xl xl:text-2xl mb-2">
               {title}
             </h5>
-            <p className="text-xs md:text-base xl:text-lg">{desc}</p>
+            <p className="text-xs md:text-base">{desc}</p>
           </div>
         ))}
       </div>
