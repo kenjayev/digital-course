@@ -2,7 +2,7 @@ import { useState } from "react";
 import Modal from "./Modal";
 
 const Plane = () => {
-  const [modalPlane, setModalPlane] = useState("premium");
+  const [modalPlane, setModalPlane] = useState(null);
   const bgGradient = "bg-gradient-to-r from-[#242633] to-[#2c2d2d]";
   return (
     <div className="pt-[40px]" id="coursePlan">
