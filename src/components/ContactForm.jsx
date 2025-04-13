@@ -14,10 +14,9 @@ const ContactForm = () => {
     // console.log(e.target.firstName.value);
     const firstName = e.target.firstName.value;
     const telNumber = e.target.telNumber.value;
-    const option = e.target.tarif.value;
-    if (option === "default") return toast.error("Tarifni ham tanlang");
+    const desc = e.target.desc.value;
 
-    const text = `<b>${option}</b>: \n <b>Ismi:</b> ${firstName} \n <b>Tel:</b> <u>+${telNumber}</u> `;
+    const text = `<b>Ismi:</b> ${firstName} \n<b>Tel:</b> <u>+${telNumber}</u> \n\n<b>Murojat: </b> <code>${desc}</code> `;
 
     axios({
       url: url,
@@ -90,35 +89,16 @@ const ContactForm = () => {
           </label>
           <label className="mb-5 block">
             <span className="block text-base font-semibold mb-2 uppercase">
-              Tarifni tanlang:
+              Savolinizni yozing:
             </span>
-            <select
-              name="tarif"
-              id="tarif"
-              className="text-lg font-semibold block w-full border-1 border-[#ccc] px-4 py-3 rounded-sm outline-none"
-              defaultValue={"default"}
+            <textarea
+              className="block w-full border-1 border-[#ccc] px-4 py-3 rounded-sm outline-none"
+              name="desc"
+              id="desc"
+              rows="3"
               required
-            >
-              <option
-                className="text-black font-semibold font-lg"
-                disabled
-                value="default"
-              >
-                Tarifni tanlang
-              </option>
-              <option
-                className="text-black font-semibold font-lg"
-                value="standart"
-              >
-                Standart
-              </option>
-              <option
-                className="text-black font-semibold font-lg"
-                value="premium"
-              >
-                Premium
-              </option>
-            </select>
+              placeholder="Savolingiz yoki taklifingizni yozing"
+            ></textarea>
           </label>
           <button className="block w-full rounded-sm md:text-lg p-4 text-base text-center font-semibold uppercase bg-gold hover:bg-goldH hover:opacity-90 transition-all duration-150 text-black cursor-pointer">
             Yuborish

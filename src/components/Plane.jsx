@@ -1,7 +1,12 @@
+import { useState } from "react";
+import Modal from "./Modal";
+
 const Plane = () => {
+  const [modalPlane, setModalPlane] = useState("premium");
   const bgGradient = "bg-gradient-to-r from-[#242633] to-[#2c2d2d]";
   return (
     <div className="pt-[40px]" id="coursePlan">
+      {modalPlane && <Modal plan={modalPlane} closeModal={setModalPlane} />}
       <h2 className="text-center text-white font-semibold uppercase mb-6 md:mb-8 lg:mb-10 text-3xl sm:text-3xl md:text-4xl lg:text-5xl">
         Ta'riflar
       </h2>
@@ -89,8 +94,11 @@ const Plane = () => {
             <p className="text-3xl md:text-4xl font-semibold mb-4">
               400,000 so'm
             </p>
-            <button className="py-4 mb-3 block max-w-[300px] min-w-[210px] w-[80%] rounded-lg m-auto text-sm sm:text-base md:text-lg font-semibold uppercase bg-gold hover:bg-goldH hover:opacity-90 transition-all duration-150 text-white cursor-pointer">
-              tarifini tanlash
+            <button
+              onClick={() => setModalPlane("standart")}
+              className="py-4 mb-3 block max-w-[300px] min-w-[210px] w-[80%] rounded-lg m-auto text-sm sm:text-base md:text-lg font-semibold uppercase bg-gold hover:bg-goldH hover:opacity-90 transition-all duration-150 text-white cursor-pointer"
+            >
+              standartni tanlash
             </button>
             <p className="uppercase text-lg">Onlayn: 300 ta joy</p>
           </div>
@@ -194,8 +202,11 @@ const Plane = () => {
             <p className="text-3xl md:text-4xl font-semibold mb-4">
               1,000,000 so'm
             </p>
-            <button className="py-4 mb-3 block max-w-[300px] min-w-[210px] w-[80%] rounded-lg m-auto text-sm sm:text-base md:text-lg font-semibold uppercase bg-[#9163e7] text-white cursor-pointer">
-              tarifini tanlash
+            <button
+              onClick={() => setModalPlane("premium")}
+              className="py-4 mb-3 block max-w-[300px] min-w-[210px] w-[80%] rounded-lg m-auto text-sm sm:text-base md:text-lg font-semibold uppercase bg-[#9163e7] text-white cursor-pointer"
+            >
+              Premiumni tanlash
             </button>
             <p className="uppercase text-lg">Onlayn: 20 ta joy</p>
           </div>
