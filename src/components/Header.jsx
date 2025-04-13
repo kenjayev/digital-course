@@ -9,10 +9,10 @@ const Header = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="w-full flex-[1.2] lg:pl-8">
             <div className="w-full mb-6 flex lg:gap-10 lg:justify-start justify-around md:from-transparent md:to-transparent bg-gradient-to-r from-[#242633] to-[#2c2d2d]">
-              <div className="p-5 pr-3 md:px-[13px] ml-4 lg:ml-0 w-full max-w-[220px] md:max-w-[210px] rounded-md text-customWhite relative md:from-[#242633] md:to-[#2c2d2d] bg-gradient-to-r from-transparent to-transparent">
+              <div className="p-5 pr-1 sm:pr-3 md:px-[13px] ml-6 sm:ml-4 lg:ml-0 w-full max-w-[220px] md:max-w-[210px] rounded-md text-customWhite relative md:from-[#242633] md:to-[#2c2d2d] bg-gradient-to-r from-transparent to-transparent">
                 <img
                   className="absolute top-[30%] left-[-15px] border border-[#aaa] rounded-[10px] p-[7px] md:p-8px w-[32px] md:w-[36px] h-[32px] md:h-[36px] bg-gradient-to-r from-[#242633] to-[#2c2d2d]"
-                  src="/img/icon/data.svg"
+                  src="/img/icon/chanel.svg"
                   alt=""
                 />
                 <p className="text-[12px] sm:text-[16px] md:text-[18px] ml-2 md:ml-4">
@@ -52,7 +52,7 @@ const Header = () => {
               <div className="hidden sm:flex flex-col items-center md:items-start">
                 <a
                   href="#coursePlan"
-                  className="max-w-[60%] w-full rounded-lg mb-2 m-auto md:mx-0 p-4 md:max-w-[77%] lg:max-w-[60%] text-base md:text-lg lg:text-xl text-center font-semibold uppercase bg-gold cursor-pointer"
+                  className="max-w-[60%] w-full rounded-lg mb-2 m-auto md:mx-0 p-4 md:max-w-[77%] lg:max-w-[60%] text-base md:text-lg lg:text-xl text-center font-semibold uppercase bg-gold hover:bg-goldH hover:opacity-90 transition-all duration-150 cursor-pointer"
                 >
                   Ro'yhatdan o'tish
                 </a>
@@ -65,7 +65,7 @@ const Header = () => {
           </div>
           <div className="relative max-w-[550px] m-auto md:max-w-none flex-1">
             <img
-              className="w-full block opacity-50"
+              className="w-full block opacity-62"
               src="/img/izzat_2.jpg"
               alt=""
             />

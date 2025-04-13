@@ -1,8 +1,8 @@
 const Plane = () => {
   const bgGradient = "bg-gradient-to-r from-[#242633] to-[#2c2d2d]";
   return (
-    <div className="pt-[100px]">
-      <h2 className="text-center text-white font-semibold uppercase mb-6 md:mb-8 lg:mb-10 text-3xl sm:text-3xl md:text-4xl">
+    <div className="pt-[40px]" id="coursePlan">
+      <h2 className="text-center text-white font-semibold uppercase mb-6 md:mb-8 lg:mb-10 text-3xl sm:text-3xl md:text-4xl lg:text-5xl">
         Ta'riflar
       </h2>
       <div className="max-w-[1100px] m-auto flex flex-wrap justify-center md:justify-between gap-5 sm:gap-7 md:gap-10 pt-16 px-10 md:px-12">
@@ -89,7 +89,7 @@ const Plane = () => {
             <p className="text-3xl md:text-4xl font-semibold mb-4">
               400,000 so'm
             </p>
-            <button className="py-4 mb-3 block max-w-[300px] min-w-[210px] w-[80%] rounded-lg m-auto text-sm sm:text-base md:text-lg font-semibold uppercase bg-gold text-white cursor-pointer">
+            <button className="py-4 mb-3 block max-w-[300px] min-w-[210px] w-[80%] rounded-lg m-auto text-sm sm:text-base md:text-lg font-semibold uppercase bg-gold hover:bg-goldH hover:opacity-90 transition-all duration-150 text-white cursor-pointer">
               tarifini tanlash
             </button>
             <p className="uppercase text-lg">Onlayn: 300 ta joy</p>
@@ -99,8 +99,13 @@ const Plane = () => {
         <div className="relative flex flex-col justify-between w-full flex-1 min-w-[250px] sm:min-w-[250px] max-w-[350px] md:max-w-[380px] lg:max-w-[430px] lg:mx-8 p-5 md:px-8 rounded-[20px] bg-white">
           <span
             style={{ letterSpacing: "2.5px" }}
-            className={`absolute top-0 left-[50%] translate-y-[-50%] translate-x-[-50%] w-[70%] sm:w-[75%] md:-[80%] rounded-[10px] py-6 md:py-8 ${bgGradient} z-10 uppercase text-white text-xl md:text-2xl lg:text-3xl font-semibold text-center`}
+            className={`flex justify-center items-center gap-[10px] absolute top-0 left-[50%] translate-y-[-50%] translate-x-[-50%] w-[70%] sm:w-[75%] md:-[80%] rounded-[10px] py-6 md:py-8 ${bgGradient} z-10 uppercase text-white text-xl md:text-2xl lg:text-3xl font-semibold text-center`}
           >
+            <img
+              className="w-5 h-5 md:w-6 md:h-6 lg:w-[30px] lg:h-[30px]"
+              src="/img/icon/premium.svg"
+              alt="icon| premium icon"
+            />
             Premium
           </span>
           <div className="mt-[50px] mb-7">

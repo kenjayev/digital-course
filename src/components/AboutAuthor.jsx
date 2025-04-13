@@ -3,7 +3,10 @@ import React from "react";
 const AboutAuthor = () => {
   const bgGradient = "bg-gradient-to-r from-[#242633] to-[#2c2d2d]";
   return (
-    <div className="max-w-[1280px] m-auto p-2 sm:p-5 text-white">
+    <div className="max-w-[1280px] m-auto mb-[60px] p-2 sm:p-5 text-white">
+      <h2 className="text-center text-white font-semibold uppercase mb-6 text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+        Muallif haqida
+      </h2>
       <div className="flex gap-5 items-center md:items-end justify-center flex-col md:flex-row">
         <div
           className={`${bgGradient} max-w-[470px] md:max-w-[560px] w-full p-5 py-7 md:p-7 flex-[1.2] rounded-[30px]`}
@@ -22,72 +25,67 @@ const AboutAuthor = () => {
             <div className="flex-1 border-gold border-1"></div>
           </div>
           <div className="grid grid-cols-2 grid-rows-3 gap-4 md:gap-5 lg:gap-10">
-            <div className="flex items-center gap-2 md:gap-3">
+            <div className="flex items-center gap-2 md:gap-3 flex-wrap">
               <img
                 className="w-[40px] sm:w-[50px] lg:w-[60px] h-[40px] sm:h-[50px] lg:h-[60px] overflow-hidden rounded-full"
                 src="/img/project_logo__1.jpg"
                 alt=""
               />
-              <span className="text-sm sm:text-base lg:text-xl font-semi00000bold">
+              <span className="text-sm sm:text-base lg:text-xl ">
                 Anhorpark
               </span>
             </div>
-            <div className="flex items-center gap-2 md:gap-3">
+            <div className="flex items-center gap-2 md:gap-3 flex-wrap">
               <img
                 className="w-[40px] sm:w-[50px] lg:w-[60px] h-[40px] sm:h-[50px] lg:h-[60px] overflow-hidden rounded-full"
-                src="/img/project_logo__1.jpg"
+                src="/img/project_logo__2.jpg"
                 alt=""
               />
-              <span className="text-sm sm:text-base lg:text-xl font-semi00000bold">
+              <span className="text-sm sm:text-base lg:text-xl ">
                 Cosmo Aesthet
               </span>
             </div>
-            <div className="flex items-center gap-2 md:gap-3">
+            <div className="flex items-center gap-2 md:gap-3 flex-wrap">
               <img
                 className="w-[40px] sm:w-[50px] lg:w-[60px] h-[40px] sm:h-[50px] lg:h-[60px] overflow-hidden rounded-full"
-                src="/img/project_logo__1.jpg"
+                src="/img/project_logo__3.jpg"
                 alt=""
               />
-              <span className="text-sm sm:text-base lg:text-xl font-semi00000bold">
+              <span className="text-sm sm:text-base lg:text-xl ">
                 Ahad Qayum
               </span>
             </div>
-            <div className="flex items-center gap-2 md:gap-3">
+            <div className="flex items-center gap-2 md:gap-3 flex-wrap">
               <img
                 className="w-[40px] sm:w-[50px] lg:w-[60px] h-[40px] sm:h-[50px] lg:h-[60px] overflow-hidden rounded-full"
-                src="/img/project_logo__1.jpg"
+                src="/img/project_logo__4.jpg"
                 alt=""
               />
-              <span className="text-sm sm:text-base lg:text-xl font-semi00000bold">
+              <span className="text-sm sm:text-base lg:text-xl ">
                 dermatology.uz
               </span>
             </div>
-            <div className="flex items-center gap-2 md:gap-3">
+            <div className="flex items-center gap-2 md:gap-3 flex-wrap">
               <img
                 className="w-[40px] sm:w-[50px] lg:w-[60px] h-[40px] sm:h-[50px] lg:h-[60px] overflow-hidden rounded-full"
-                src="/img/project_logo__1.jpg"
+                src="/img/project_logo__5.jpg"
                 alt=""
               />
-              <span className="text-sm sm:text-base lg:text-xl font-semi00000bold">
+              <span className="text-sm sm:text-base lg:text-xl ">
                 Apple Nasiya
               </span>
             </div>
-            <div className="flex items-center gap-2 md:gap-3">
-              <img
-                className="w-[40px] sm:w-[50px] lg:w-[60px] h-[40px] sm:h-[50px] lg:h-[60px] overflow-hidden rounded-full"
-                src="/img/project_logo__1.jpg"
-                alt=""
-              />
-              <span className="text-sm sm:text-base lg:text-xl font-semi00000bold">
-                Anhorpark
+            <div className="flex items-center gap-2 md:gap-3 flex-wrap">
+              <span className="text-lg md:text-2xl lg:text-3xl font-semibold">
+                50+ loyihalar
               </span>
             </div>
 
             <div></div>
           </div>
         </div>
-        <div className="flex-1 relative max-w-[490px] lg:max-w-[550px] m-auto lg:m-0 rounded-[30px] overflow-hidden">
-          <img className="opacity-50" src="/img/izzat_2.jpg" alt="" />
+        <div className=" max-h-[680px] overflow-hidden flex-1 relative max-w-[490px] lg:max-w-[550px] m-auto lg:m-0 rounded-[30px] overflow-hidden">
+          <img className="opacity-65" src="/img/izzat_2.jpg" alt="" />
           <div className="w-[90%] absolute bottom-4 right-2">
             <p className="mb-2 font-semibold text-lg lg:text-xl lg:leading-none lg:mb-4">
               <img

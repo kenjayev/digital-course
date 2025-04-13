@@ -1,15 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@;400;500;600;800;900&display=swap");
 @import "tailwindcss";
 * {
-  /* font-family: "Times New Roman", Times, serif; */
   font-family: "Kanit", sans-serif;
   letter-spacing: 1px;
-  /* justify-content: space-; */
 }
 
 @theme {
   --font-montserrat: "Times New Roman", Times, serif;
   --color-customWhite: #eee;
   --color-gold: #e0b507;
+  --color-goldH: #caa601;
   --color-dark-gradient: linear-gradient(90deg, #242633, #2c2d2d);
 }
+
+/* transform: scale(1.03); biroz kattalashadi */

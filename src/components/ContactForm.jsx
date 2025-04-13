@@ -120,7 +120,7 @@ const ContactForm = () => {
               </option>
             </select>
           </label>
-          <button className="block w-full rounded-sm md:text-lg p-4 text-base text-center font-semibold uppercase bg-gold text-black cursor-pointer">
+          <button className="block w-full rounded-sm md:text-lg p-4 text-base text-center font-semibold uppercase bg-gold hover:bg-goldH hover:opacity-90 transition-all duration-150 text-black cursor-pointer">
             Yuborish
           </button>
         </form>

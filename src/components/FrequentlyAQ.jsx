@@ -50,7 +50,17 @@ export default function FrequentlyAQ() {
                 {item.question}
               </p>
               {/* To'g'irlash kerak bo'lgan joy */}
-              <p className="text-3xl">+</p>
+              <p
+                className={`min-w-4  w-4 h-4 min-h-4 sm:min-w-5 sm:min-h-5 md:w-7 md:h-7 origin-center transition-all duration-250 ease-linear text-3xl md:text-4xl ${
+                  openIndex === indx ? "rotate-135" : "rotate-0"
+                }`}
+              >
+                <img
+                  className="min-w-4 min-h-4 sm:min-w-5 sm:min-h-5 md:w-7 md:h-7"
+                  src="/img/icon/plus.svg"
+                  alt=""
+                />
+              </p>
             </div>
             <p
               className={`px-2 text-customWhite text-sm sm:text-base md:text-xl overflow-hidden transition-all duration-250 ease-linear ${
