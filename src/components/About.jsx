@@ -33,7 +33,7 @@ const About = () => {
   ];
   return (
     <div className="mt-18 pb-20">
-      <h2 className="text-center text-white font-semibold uppercase mb-6 md:mb-8 lg:mb-12 text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+      <h2 className="text-center text-white font-semibold uppercase px-5 mb-6 md:mb-8 lg:mb-12 text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
         Kursda nimalarni o'rganasiz
       </h2>
       <div className="mb-10 max-w-[1280px] m-auto flex xl:grid grid-cols-3 flex-wrap justify-center gap-5 sm:gap-8 lg:gap-10 px-4 text-white">

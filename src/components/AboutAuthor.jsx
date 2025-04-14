@@ -84,7 +84,7 @@ const AboutAuthor = () => {
             <div></div>
           </div>
         </div>
-        <div className=" max-h-[680px] overflow-hidden flex-1 relative max-w-[490px] lg:max-w-[550px] m-auto lg:m-0 rounded-[30px] overflow-hidden">
+        <div className="max-h-[680px] overflow-hidden flex-1 relative max-w-[490px] lg:max-w-[550px] m-auto lg:m-0 rounded-[30px] overflow-hidden">
           <img className="opacity-65" src="/img/izzat_2.jpg" alt="" />
           <div className="w-[90%] absolute bottom-4 right-2">
             <p className="mb-2 font-semibold text-lg lg:text-xl lg:leading-none lg:mb-4">

@@ -63,17 +63,17 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <div className="relative max-w-[550px] m-auto md:max-w-none flex-1">
+          <div className="sm:max-h-[680px] overflow-hidden relative max-w-[550px] m-auto md:max-w-none flex-1">
             <img
-              className="w-full block opacity-62"
+              className="hidden w-full sm:block opacity-62"
               src="/img/izzat_2.jpg"
               alt=""
             />
-            <div className="absolute bottom-1 w-full text-center">
-              <h3 className="text-2xl sm:text-3xl font-bold uppercase">
+            <div className="mt-8 sm:mt-0 sm:absolute bottom-1 w-full text-center">
+              <h3 className="hidden sm:block text-2xl sm:text-3xl font-bold uppercase">
                 Latifov Izzatbek
               </h3>
-              <p className="text-sm sm:text-lg mb-5 uppercase">
+              <p className="hidden sm:block text-sm sm:text-lg mb-5 uppercase">
                 Professional Targetolog
               </p>
               <div className="mb-5 flex flex-col sm:hidden">
